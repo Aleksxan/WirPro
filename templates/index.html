@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>WirPro Portal Index</title>
-</head>
-<body>
-<h1>Hello and welcome to our Portal WirPro!</h1>
+{% extends 'base.html' %}
+{% block title %}
+	WirPro Portal Index
+{% endblock %}
+{% block body %}
+	<h1>Hello and welcome to our Portal WirPro!</h1>
 <h2>At the moment, our portal is under development. </h2>
 <h3>Now is {% now "jS F Y H:i" %}</h3>
-</body>
-</html>
+<div> abba</div>
+{% endblock %}
